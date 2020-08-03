@@ -1,0 +1,278 @@
+html {
+    font-size: 90%;
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:  #5D4954;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    color: #ddd;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: #ddd;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.header{
+    display: none;
+    cursor: pointer;
+}
+.header div{
+    width: 25px;
+    height: 3px;
+    background-color: #ddd;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.home{
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)), url(../images/book.jpg) center no-repeat;
+    background-size: cover;
+    opacity: 2;   
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icons ul{
+    list-style: none;
+    display: flex;
+}
+.social-icons li{
+    padding: 40px;
+}
+
+
+.heading{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #ddd;
+    letter-spacing: 3px;
+    height: 10vh;
+    text-transform: uppercase;
+
+}
+
+.paragraph{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    padding: 10px;
+    font-size: 1.3rem;
+    color: white;
+    height: 5vh;
+}
+
+.semi-paragraph{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    padding: 100px;
+    color: white;
+    height: 5vh;
+}
+
+.contents{
+    color: #dddddd;
+    height: 42.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-wrap{
+    background-color: #ddd;
+    background: url(../images/book2.jpg) no-repeat left;
+    background-size: 55%;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.about-wrapper{
+    width: 55%;
+    float: right;
+    background-color: #ddd;
+    padding: 150px;
+}
+.about-wrapper h1{
+    font-family: 'Josefin Sans' sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    margin-bottom: 30px;
+    color: #deaa86;
+}
+.desc{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.contact-wrapper{
+    background-color: steelblue;
+    padding: 80px;
+}
+.contact{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    color: #deaa86;   
+    text-align: center;
+}
+.text{
+    color: white;
+    font-family: 'Josefin Sans', sans-seri;
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+.icon{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.icon-svg img{
+    margin-right: 20px;
+}
+
+.services{
+    background: #ddd;
+    padding: 80px;
+}
+.services h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    color: #deaa86;   
+    text-align: center;
+    padding: 20px;
+}
+.services ul{
+    list-style: none;
+}
+.services li{
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 60%;
+    }
+}
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #5D4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .header{
+        display: block;
+    }
+}
+.nav-active{
+    transform: translateX(0%);
+}
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+@media screen and (max-width:1024px){
+    .heading{
+        font-size: 1.7rem;
+        font-weight: bold;
+        padding: 20px;
+    }
+    .paragraph{
+        font-weight: 100;
+        font-size: 1.2rem;
+        padding: 35px;
+    }
+    .semi-paragraph{
+        font-weight: 100;
+    }
+}
+@media screen and (max-width:1024px){
+    .about-wrapper{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:768px){
+    .about-wrap{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .about-wrapper{
+        width: 100%;
+    }
+}
