@@ -285,7 +285,7 @@ nav{
 
 .main-part {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: #1c1c1c;
     padding: 1rem;
 }
@@ -295,7 +295,7 @@ nav{
     font-weight: 300;
     color: goldenrod;
     margin: 1rem 0 3rem 0;
-    
+
 }
 
 .footer-list {
