@@ -300,12 +300,3 @@ body{
     overflow-y: hidden;
 }
 }
-@media only screen and (max-width:600px){
-    .about-wrap{
-        background-size: 20%;
-        padding: 0;
-    }
-    .about-wrapper{
-        padding: 60px;
-    }
-}
