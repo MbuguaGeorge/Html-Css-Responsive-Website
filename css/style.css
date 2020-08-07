@@ -19,7 +19,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 10vh;
     background-color:  #5D4954;
     font-family: 'Poppins', sans-serif;
     position: fixed;
@@ -72,6 +72,9 @@ nav{
     color: #ddd;
     letter-spacing: 3px;
     height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     text-transform: uppercase;
 
 }
@@ -270,14 +273,6 @@ nav{
         font-weight: bold;
         padding: 20px;
     }
-    .paragraph{
-        font-weight: 100;
-        font-size: 1.2rem;
-        padding: 35px;
-    }
-    .semi-paragraph{
-        font-weight: 100;
-    }
 }
 @media screen and (max-width:1024px){
     .about-wrapper{
@@ -293,8 +288,6 @@ nav{
         width: 100%;
     }
   
-
-
 .icon-svg{
     margin-top: 0rem;
 }
