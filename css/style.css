@@ -276,17 +276,13 @@ nav{
         width: 100%;
     }
 }
-@media screen and (max-width:25em){
+@media screen and (max-width:500px){
     .heading{
         font-size: 3rem;
-        font-weight: 200;
-        padding: 20px;
         letter-spacing: 2px;
     }
     .paragraph{
         font-size: 3rem;
-        font-weight: 100;
-        padding: 20px;
         letter-spacing: 2px;
     }
 }
