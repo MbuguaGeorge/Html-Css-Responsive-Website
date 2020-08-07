@@ -304,6 +304,9 @@ nav{
     .about-wrapper{
         padding: 60px;
     }
+    .about-wrap{
+        padding: 0;
+    }
 }
 
 
