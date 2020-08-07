@@ -220,12 +220,12 @@ nav{
     width: extend-to-zoom;
 }
 
-@media screen and (max-width:1024px){
+@media only screen and (max-width:1024px){
     .nav-links{
         width: 60%;
     }
 }
-@media screen and (max-width:768px){
+@media only screen and (max-width:768px){
     body{
         overflow-x: hidden;
     }
@@ -279,12 +279,12 @@ nav{
         padding: 20px;
     }
 }
-@media screen and (max-width:1024px){
+@media only screen and (max-width:1024px){
     .about-wrapper{
         padding: 80px;
     }
 }
-@media screen and (max-width:768px){
+@media only screen and (max-width:768px){
     .about-wrap{
         background-size: 100%;
         padding: 100px 40px;
