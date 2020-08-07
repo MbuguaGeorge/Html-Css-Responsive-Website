@@ -63,18 +63,6 @@ nav{
     background-size: cover;
     opacity: 2;   
 }
-.social-icons{
-    display: flex;
-    justify-content: center;
-}
-.social-icons ul{
-    list-style: none;
-    display: flex;
-}
-.social-icons li{
-    padding: 40px;
-}
-
 
 .heading{
     font-family: 'Josefin Sans', sans-serif;
@@ -86,23 +74,6 @@ nav{
     height: 10vh;
     text-transform: uppercase;
 
-}
-
-.paragraph{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 200;
-    padding: 10px;
-    font-size: 1.3rem;
-    color: white;
-    height: 5vh;
-}
-
-.semi-paragraph{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 200;
-    padding: 100px;
-    color: white;
-    height: 5vh;
 }
 
 .contents{
