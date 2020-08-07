@@ -141,6 +141,41 @@ nav{
     text-align: justify;
     margin-bottom: 20px;
 }
+.main-part {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1c1c1c;
+    padding: 1rem;
+}
+
+.footer-heading {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: goldenrod;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list-item {
+    margin-bottom: 2rem;
+}
+
+.footer-list-link {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #bbb;
+}
+
+.contact p {
+    font-size: 1.5rem;
+    color: #bbb;
+    margin-bottom: 4rem;
+}
 
 /* .contact-wrapper{
     background-color: steelblue;
@@ -280,48 +315,15 @@ nav{
     }
     .about-wrapper{
         width: 100%;
+    }
   
 
-.main-part {
-    display: flex;
-    justify-content: space-aroundg;
-    background-color: #1c1c1c;
-    padding: 1rem;
-}
 
-.footer-heading {
-    font-size: 1.8rem;
-    font-weight: 300;
-    color: goldenrod;
-    margin: 1rem 0 3rem 0;
-
-}
-
-.footer-list {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-list-item {
-    margin-bottom: 2rem;
-}
-
-.footer-list-link {
-    font-size: 1rem;
-    text-decoration: none;
-    color: #bbb;
-}
-
-.contact p {
-    font-size: 1.5rem;
-    color: #bbb;
-    margin-bottom: 4rem;
-}
 .icon-svg{
     margin-top: 0rem;
 }
 
-=======
+
 @media screen and (max-width:25em){
     .heading{
         font-size: 3rem;
@@ -336,4 +338,6 @@ nav{
         letter-spacing: 2px;
     }
 }
+}
+
 
