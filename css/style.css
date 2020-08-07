@@ -142,17 +142,23 @@ nav{
     margin-bottom: 20px;
 }
 
-.contact-wrapper{
+/* .contact-wrapper{
     background-color: steelblue;
     padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
-.contact{
+.contact-header{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.8rem;
     font-weight: 200;
     color: #deaa86;   
     text-align: center;
-}
+} */
 .text{
     color: white;
     font-family: 'Josefin Sans', sans-seri;
@@ -274,8 +280,48 @@ nav{
     }
     .about-wrapper{
         width: 100%;
-    }
+  
+
+.main-part {
+    display: flex;
+    justify-content: space-aroundg;
+    background-color: #1c1c1c;
+    padding: 1rem;
 }
+
+.footer-heading {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: goldenrod;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list-item {
+    margin-bottom: 2rem;
+}
+
+.footer-list-link {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #bbb;
+}
+
+.contact p {
+    font-size: 1.5rem;
+    color: #bbb;
+    margin-bottom: 4rem;
+}
+.icon-svg{
+    margin-top: 0rem;
+}
+
+=======
 @media screen and (max-width:25em){
     .heading{
         font-size: 3rem;
@@ -290,3 +336,4 @@ nav{
         letter-spacing: 2px;
     }
 }
+
