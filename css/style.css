@@ -131,7 +131,7 @@ nav{
     list-style: none;
     padding: 0;
 }
-.footer-list img{
+.footer-list-wrapper li{
     color: white;
 }
 
