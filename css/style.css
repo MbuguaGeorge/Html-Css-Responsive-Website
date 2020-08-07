@@ -214,6 +214,10 @@ nav{
     font-weight: 200;
     letter-spacing: 2px;
 }
+@-o-viewport{
+    zoom: 1;
+    width: extend-to-zoom;
+}
 
 @media screen and (max-width:1024px){
     .nav-links{
