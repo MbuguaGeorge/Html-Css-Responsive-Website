@@ -131,15 +131,20 @@ nav{
     list-style: none;
     padding: 0;
 }
+.footer-list img{
+    color: white;
+}
 
 .footer-list-item {
     margin-bottom: 2rem;
+    color: white;
 }
 
 .footer-list-link {
     font-size: 1rem;
     text-decoration: none;
     color: #bbb;
+    font-style: italic;
 }
 
 .contact p {
@@ -295,16 +300,10 @@ nav{
 }
 
 
-@media screen and (max-width:25em){
-    .heading{
-        font-size: 3rem;
-        letter-spacing: 2px;
+@media screen and (max-width:500px){
+    .about-wrapper{
+        padding: 60px;
     }
-    .paragraph{
-        font-size: 3rem;
-        letter-spacing: 2px;
-    }
-}
 }
 
 
