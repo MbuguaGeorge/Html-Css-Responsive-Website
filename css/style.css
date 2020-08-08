@@ -116,13 +116,6 @@ nav{
     text-align: justify;
     margin-bottom: 20px;
 }
-/*.main-part {
-    display: flex;
-    justify-content: space-around;
-    background-color: #1c1c1c;
-    padding: 1rem;
-}
-*/
 .main-part{
     background-color: #1c1c1c;
 }
@@ -167,12 +160,7 @@ nav{
     margin-bottom: 2rem;
     color: white;
 }
-  /*  .footer-img{
-        display: flex;
-        list-style: none;
-        justify-content: space-between;
-    }
-    */
+
 .footer-img{
     list-style: none;
 }
@@ -330,5 +318,13 @@ nav{
     }
     .footer-right{
         margin-top: 0;
+    }
+}
+@media (max-width:880px){
+    .about-wrap{
+        padding: 0 0;
+    }
+    .services{
+        margin-left: 0;
     }
 }
